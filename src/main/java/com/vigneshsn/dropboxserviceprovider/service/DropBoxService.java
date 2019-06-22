@@ -12,7 +12,7 @@ import org.springframework.web.multipart.MultipartFile;
 @Component
 class DropBoxService implements FileUploadService{
 
-    private static final String ACCESS_TOKEN = "O7YTv0oCVmAAAAAAAAAAFyjDRnX3bbufO-OWRuZoPgz0uTuio7UIFihFkCk0jd_l";
+    private static final String ACCESS_TOKEN = "<place holder for access token>";
     private final Logger log = LoggerFactory.getLogger(getClass());
 
     @Override
