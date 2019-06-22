@@ -1,0 +1,9 @@
+---
+
+applications:
+  - name: dropbox-service-provider
+    memory: 768M
+    instances: 1
+    path: target/dropbox-service-provider.jar
+    buildpacks:
+      - https://github.com/cloudfoundry/java-buildpack.git
